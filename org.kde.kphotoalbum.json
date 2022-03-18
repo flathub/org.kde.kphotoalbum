@@ -56,7 +56,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
+                    "x-checker-data": {
+						"type": "anitya",
+						"project-id": 769,
+						"stable-only": true,
+						"url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+					}
                 }
             ]
         },
@@ -71,7 +77,13 @@
                 {
                     "type": "archive",
                     "url": "https://www.libraw.org/data/LibRaw-0.20.2.tar.gz",
-                    "sha256": "dc1b486c2003435733043e4e05273477326e51c3ea554c6864a4eafaff1004a6"
+                    "sha256": "dc1b486c2003435733043e4e05273477326e51c3ea554c6864a4eafaff1004a6",
+                    "x-checker-data": {
+						"type": "anitya",
+						"project-id": 1709,
+						"stable-only": true,
+						"url-template": "https://www.libraw.org/data/LibRaw-$version.tar.gz"
+					}
                 },
                 {
                     "type": "shell",
@@ -93,7 +105,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.1/src/marble-21.12.1.tar.xz",
-                    "sha256": "568b6d9ab39683f6a2ca4ea78daaf4ca66db7eb13ca587333f54291e17831c49"
+                    "sha256": "568b6d9ab39683f6a2ca4ea78daaf4ca66db7eb13ca587333f54291e17831c49",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/marble-$version.tar.xz"
+                    }
                 }
             ],
             "modules": [
@@ -104,7 +122,13 @@
                         {
                             "type": "archive",
                             "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protobuf-cpp-3.19.3.tar.gz",
-                            "sha256": "f0cc6ae9119d4891d72bc72d44ae73308d6e2319e2ce96c10c22d2508c55c922"
+                            "sha256": "f0cc6ae9119d4891d72bc72d44ae73308d6e2319e2ce96c10c22d2508c55c922",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 3715,
+                                "stable-only": true,
+                                "url-template": "https://github.com/protocolbuffers/protobuf/releases/download/v$version/protobuf-cpp-$version.tar.gz"
+                            }
                         }
                     ]
                 },
@@ -120,7 +144,13 @@
                         {
                             "type": "archive",
                             "url": "https://github.com/HewlettPackard/wireless-tools/archive/refs/tags/v29.tar.gz",
-                            "sha256": "69c5face9ac9d3273042436408a9a057d3416a814253dedeaaef210fcbc42d40"
+                            "sha256": "69c5face9ac9d3273042436408a9a057d3416a814253dedeaaef210fcbc42d40",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 5136,
+                                "stable-only": true,
+                                "url-template": "https://github.com/HewlettPackard/wireless-tools/archive/refs/tags/v$version.tar.gz"
+                            }
                         }
                     ],
                     "cleanup": [
@@ -153,7 +183,13 @@
                         {
                             "type": "archive",
                             "url": "https://download.kde.org/stable/frameworks/5.89/krunner-5.89.0.tar.xz",
-                            "sha256": "1db396b1ddd5232122ea0bfdbf96402c10221dca1ab668188f8e3f33c7b09f87"
+                            "sha256": "1db396b1ddd5232122ea0bfdbf96402c10221dca1ab668188f8e3f33c7b09f87",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 8762,
+                                "stable-only": true,
+                                "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/krunner-$version.tar.xz"
+                             }
                         }
                     ]
                 },
@@ -164,7 +200,13 @@
                         {
                             "type": "archive",
                             "url": "http://download.osgeo.org/shapelib/shapelib-1.5.0.tar.gz",
-                            "sha256": "1fc0a480982caef9e7b9423070b47750ba34cd0ba82668f2e638fab1d07adae1"
+                            "sha256": "1fc0a480982caef9e7b9423070b47750ba34cd0ba82668f2e638fab1d07adae1",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 4804,
+                                "stable-only": true,
+                                "url-template": "http://download.osgeo.org/shapelib/shapelib-$version.tar.gz"
+                             }
                         }
                     ]
                 }
@@ -181,7 +223,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.1/src/libkdcraw-21.12.1.tar.xz",
-                    "sha256": "9a6b20220b94144d495351e8ed65b61291a13dc6e59716fa599b93de027f4ebc"
+                    "sha256": "9a6b20220b94144d495351e8ed65b61291a13dc6e59716fa599b93de027f4ebc",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdcraw-$version.tar.xz"
+                    }                    
                 }
             ]
         },
@@ -208,7 +256,13 @@
                 {
                     "type": "archive",
                     "url": "https://ffmpeg.org/releases/ffmpeg-4.4.1.tar.xz",
-                    "sha256": "eadbad9e9ab30b25f5520fbfde99fae4a92a1ae3c0257a8d68569a4651e30e02"
+                    "sha256": "eadbad9e9ab30b25f5520fbfde99fae4a92a1ae3c0257a8d68569a4651e30e02",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5405,
+                        "stable-only": true,
+                        "url-template": "https://ffmpeg.org/releases/ffmpeg-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -219,7 +273,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kphotoalbum/5.8.1/kphotoalbum-5.8.1.tar.xz",
-                    "sha256": "acbb0ec72ba2879cfea9a2b8d3f4a7e8be7c61021e9ac7c32871d18723b3f8ee"
+                    "sha256": "acbb0ec72ba2879cfea9a2b8d3f4a7e8be7c61021e9ac7c32871d18723b3f8ee",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 14987,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kphotoalbum/$version/kphotoalbum-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",

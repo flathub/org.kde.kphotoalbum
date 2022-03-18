@@ -23,7 +23,6 @@
         "/lib/pkgconfig",
         "/share/man"
     ],
-
     "modules": [
         {
             "name": "exiv2",
@@ -58,11 +57,11 @@
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
                     "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
                     "x-checker-data": {
-						"type": "anitya",
-						"project-id": 769,
-						"stable-only": true,
-						"url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
-					}
+                        "type": "anitya",
+                        "project-id": 769,
+                        "stable-only": true,
+                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+                    }
                 }
             ]
         },
@@ -79,15 +78,17 @@
                     "url": "https://www.libraw.org/data/LibRaw-0.20.2.tar.gz",
                     "sha256": "dc1b486c2003435733043e4e05273477326e51c3ea554c6864a4eafaff1004a6",
                     "x-checker-data": {
-						"type": "anitya",
-						"project-id": 1709,
-						"stable-only": true,
-						"url-template": "https://www.libraw.org/data/LibRaw-$version.tar.gz"
-					}
+                        "type": "anitya",
+                        "project-id": 1709,
+                        "stable-only": true,
+                        "url-template": "https://www.libraw.org/data/LibRaw-$version.tar.gz"
+                    }
                 },
                 {
                     "type": "shell",
-                    "commands": [ "autoreconf -vfi" ]
+                    "commands": [
+                        "autoreconf -vfi"
+                    ]
                 }
             ]
         },
@@ -104,8 +105,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/marble-21.12.1.tar.xz",
-                    "sha256": "568b6d9ab39683f6a2ca4ea78daaf4ca66db7eb13ca587333f54291e17831c49",
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/marble-21.12.3.tar.xz",
+                    "sha256": "442925b9024c0d7d470aa1523b0647c8fdce9ce69a0a2c6b29133d43596ad86c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +122,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.3/protobuf-cpp-3.19.3.tar.gz",
-                            "sha256": "f0cc6ae9119d4891d72bc72d44ae73308d6e2319e2ce96c10c22d2508c55c922",
+                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v3.19.4/protobuf-cpp-3.19.4.tar.gz",
+                            "sha256": "89ac31a93832e204db6d73b1e80f39f142d5747b290f17340adce5be5b122f94",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 3715,
@@ -182,14 +183,14 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.89/krunner-5.89.0.tar.xz",
-                            "sha256": "1db396b1ddd5232122ea0bfdbf96402c10221dca1ab668188f8e3f33c7b09f87",
+                            "url": "https://download.kde.org/stable/frameworks/5.92/krunner-5.92.0.tar.xz",
+                            "sha256": "3fc80c5d66359e4593115b58fcd055ca9cab8f23376123094e13c5d4bdc48fed",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
                                 "stable-only": true,
                                 "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/krunner-$version.tar.xz"
-                             }
+                            }
                         }
                     ]
                 },
@@ -206,7 +207,7 @@
                                 "project-id": 4804,
                                 "stable-only": true,
                                 "url-template": "http://download.osgeo.org/shapelib/shapelib-$version.tar.gz"
-                             }
+                            }
                         }
                     ]
                 }
@@ -222,14 +223,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/libkdcraw-21.12.1.tar.xz",
-                    "sha256": "9a6b20220b94144d495351e8ed65b61291a13dc6e59716fa599b93de027f4ebc",
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkdcraw-21.12.3.tar.xz",
+                    "sha256": "6acfd4ca20417e525c1676c2b77beb26a683b346afa309cd5b9db3e894d2d8df",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdcraw-$version.tar.xz"
-                    }                    
+                    }
                 }
             ]
         },
@@ -255,8 +256,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.1.tar.xz",
-                    "sha256": "eadbad9e9ab30b25f5520fbfde99fae4a92a1ae3c0257a8d68569a4651e30e02",
+                    "url": "https://ffmpeg.org/releases/ffmpeg-5.0.tar.xz",
+                    "sha256": "51e919f7d205062c0fd4fae6243a84850391115104ccf1efc451733bc0ac7298",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5405,

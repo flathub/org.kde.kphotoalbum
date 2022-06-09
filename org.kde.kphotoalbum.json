@@ -105,8 +105,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/marble-22.04.1.tar.xz",
-                    "sha256": "359b14486376c387e990eb4836b058495e03a69791bbafd560f1034af0b9b857",
+                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/marble-22.04.2.tar.xz",
+                    "sha256": "a4332e10d26b24ecd07560fa2d877b1f0cce6e50010bbc36ef98e02acc68dfda",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -223,8 +223,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/libkdcraw-22.04.1.tar.xz",
-                    "sha256": "62942d392519e86e880e5c5b0dc1bda124f245380546299536d755f4eb12a8a5",
+                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkdcraw-22.04.2.tar.xz",
+                    "sha256": "c669f629077df69febba2e1fbd91dd6452fa49b14f6b1ac382e177c7423828fd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

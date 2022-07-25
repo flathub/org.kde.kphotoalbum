@@ -23,6 +23,16 @@
         "/lib/pkgconfig",
         "/share/man"
     ],
+    "add-extensions": {
+      "org.freedesktop.Platform.ffmpeg-full": {
+        "directory": "lib/ffmpeg",
+        "version": "21.08",
+        "add-ld-path": "."
+      }
+    },
+    "cleanup-commands": [
+        "mkdir -p /app/lib/ffmpeg"
+    ],
     "modules": [
         {
             "name": "exiv2",
@@ -230,39 +240,6 @@
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdcraw-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "ffmpeg",
-            "config-opts": [
-                "--enable-rpath",
-                "--enable-gpl",
-                "--disable-static",
-                "--enable-shared",
-                "--disable-doc",
-                "--disable-ffplay",
-                "--disable-ffprobe",
-                "--enable-libmp3lame",
-                "--enable-libvorbis",
-                "--enable-libopus",
-                "--enable-avcodec",
-                "--enable-libxcb"
-            ],
-            "cleanup": [
-                "/share/ffmpeg/examples"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://ffmpeg.org/releases/ffmpeg-5.1.tar.xz",
-                    "sha256": "55eb6aab5ee235550fa54a33eaf8bf1b4ec66c01453182b12f6a993d75698b03",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 5405,
-                        "stable-only": true,
-                        "url-template": "https://ffmpeg.org/releases/ffmpeg-$version.tar.xz"
                     }
                 }
             ]

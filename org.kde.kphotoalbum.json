@@ -258,10 +258,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kphotoalbum/$version/kphotoalbum-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }

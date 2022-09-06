@@ -250,8 +250,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kphotoalbum/5.9.0/kphotoalbum-5.9.0.tar.xz",
-                    "sha256": "eea9e24ad8fad05613e853a3dfb58839388b9d464706d296404daf55f72072c8",
+                    "url": "https://download.kde.org/stable/kphotoalbum/5.9.1/kphotoalbum-5.9.1.tar.xz",
+                    "sha256": "91e8f30d8a41404a062a03f355c5159462a67753a85f1f96eedf69dcc34dc3f0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 14987,

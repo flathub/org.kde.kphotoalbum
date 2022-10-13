@@ -115,8 +115,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/marble-22.08.1.tar.xz",
-                    "sha256": "90b603d5c6d8aba728fab94e599c5788702110bae7f418dd5ad909b9dcd6c3e7",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/marble-22.08.2.tar.xz",
+                    "sha256": "87d80c7a9e6750f1be53d5a99dc5837c268506367e0805575c6392a9012d40fb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -132,13 +132,13 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.5/protobuf-cpp-3.21.5.tar.gz",
-                            "sha256": "58c8a18b4ec22655535c493155c5465a8903e8249094ceead87e00763bdbc44f",
+                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.7/protobuf-cpp-3.21.7.tar.gz",
+                            "sha256": "70de993af0b4f2ddacce59e62ba6d7b7e48faf48beb1b0d5f1ac0e1fb0a68423",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 3715,
                                 "stable-only": true,
-                                "url-template": "https://github.com/protocolbuffers/protobuf/releases/download/v$version/protobuf-cpp-$version.tar.gz"
+                                "url-template": "https://github.com/protocolbuffers/protobuf/releases/download/v$version/protobuf-cpp-3.$version.tar.gz"
                             }
                         }
                     ]
@@ -193,8 +193,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.98/krunner-5.98.0.tar.xz",
-                            "sha256": "52430b0c3d562b0653eaec7bdf78513f1b1c2d77ac3ddc1a0d3001ded340904d",
+                            "url": "https://download.kde.org/stable/frameworks/5.99/krunner-5.99.0.tar.xz",
+                            "sha256": "2521878b156c6f4f8b50e8b575fdffe170310ca32316f76ab45ebdb5ff66c8d9",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/libkdcraw-22.08.1.tar.xz",
-                    "sha256": "0e0ef769c831255ce40200eb7e61b2781af01746f7cf2480c565020d7e43848b",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/libkdcraw-22.08.2.tar.xz",
+                    "sha256": "b1a11cdb53ac1a694bcdd8d2d4a7bb71d9fc16e84bd6e103c29f89ff0e6a3f0f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

@@ -132,8 +132,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.8/protobuf-cpp-3.21.8.tar.gz",
-                            "sha256": "f6251f2d00aad41b34c1dfa3d752713cb1bb1b7020108168a4deaa206ba8ed42",
+                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.9/protobuf-cpp-3.21.9.tar.gz",
+                            "sha256": "bddc5dd16da45c89a510704683e02ba08c30af78fe092d255cf25b9b01259405",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 3715,

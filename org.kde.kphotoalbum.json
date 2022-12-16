@@ -115,8 +115,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/marble-22.08.3.tar.xz",
-                    "sha256": "5b7777fda9401e41b6340ffb56b4a7e6fd27996a71684b29c6d4ebfe4baaf60b",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/marble-22.12.0.tar.xz",
+                    "sha256": "c24c2da0c70771e1fb54c3379f88ef84ece9a2f691d46f2680261487e080e016",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -132,8 +132,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.9/protobuf-cpp-3.21.9.tar.gz",
-                            "sha256": "bddc5dd16da45c89a510704683e02ba08c30af78fe092d255cf25b9b01259405",
+                            "url": "https://github.com/protocolbuffers/protobuf/releases/download/v21.12/protobuf-cpp-3.21.12.tar.gz",
+                            "sha256": "4eab9b524aa5913c6fffb20b2a8abf5ef7f95a80bc0701f3a6dbb4c607f73460",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 3715,
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/libkdcraw-22.08.3.tar.xz",
-                    "sha256": "8d94b9987a4bcc381eb4fe4cbd20f4c57eb5a16a747039d40496ba3562d89fe0",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/libkdcraw-22.12.0.tar.xz",
+                    "sha256": "e609cbafe53d7e79ed0674bdb514a42c36b8a8984cfd49348d24b3bce163c164",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

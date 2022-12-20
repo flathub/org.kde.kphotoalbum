@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.20.2.tar.gz",
-                    "sha256": "dc1b486c2003435733043e4e05273477326e51c3ea554c6864a4eafaff1004a6",
+                    "url": "https://www.libraw.org/data/LibRaw-0.21.0.tar.gz",
+                    "sha256": "8747b34e8534cc2dd7ef8c92c436414b3578904fd4bf9b87ea60f17aa99fb0bd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -115,8 +115,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/marble-22.08.3.tar.xz",
-                    "sha256": "5b7777fda9401e41b6340ffb56b4a7e6fd27996a71684b29c6d4ebfe4baaf60b",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/marble-22.12.0.tar.xz",
+                    "sha256": "c24c2da0c70771e1fb54c3379f88ef84ece9a2f691d46f2680261487e080e016",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/libkdcraw-22.08.3.tar.xz",
-                    "sha256": "8d94b9987a4bcc381eb4fe4cbd20f4c57eb5a16a747039d40496ba3562d89fe0",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/libkdcraw-22.12.0.tar.xz",
+                    "sha256": "e609cbafe53d7e79ed0674bdb514a42c36b8a8984cfd49348d24b3bce163c164",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

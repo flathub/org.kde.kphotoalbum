@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.20.2.tar.gz",
-                    "sha256": "dc1b486c2003435733043e4e05273477326e51c3ea554c6864a4eafaff1004a6",
+                    "url": "https://www.libraw.org/data/LibRaw-0.21.0.tar.gz",
+                    "sha256": "8747b34e8534cc2dd7ef8c92c436414b3578904fd4bf9b87ea60f17aa99fb0bd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -193,8 +193,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.99/krunner-5.99.0.tar.xz",
-                            "sha256": "2521878b156c6f4f8b50e8b575fdffe170310ca32316f76ab45ebdb5ff66c8d9",
+                            "url": "https://download.kde.org/stable/frameworks/5.101/krunner-5.101.0.tar.xz",
+                            "sha256": "d25fcc168234777352dd4d11ac0f46a916d6b17d4cd9078e3a615a7804865fa6",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/libkdcraw-22.08.3.tar.xz",
-                    "sha256": "8d94b9987a4bcc381eb4fe4cbd20f4c57eb5a16a747039d40496ba3562d89fe0",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/libkdcraw-22.12.0.tar.xz",
+                    "sha256": "e609cbafe53d7e79ed0674bdb514a42c36b8a8984cfd49348d24b3bce163c164",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

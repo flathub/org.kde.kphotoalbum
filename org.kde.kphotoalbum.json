@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.21.0.tar.gz",
-                    "sha256": "8747b34e8534cc2dd7ef8c92c436414b3578904fd4bf9b87ea60f17aa99fb0bd",
+                    "url": "https://www.libraw.org/data/LibRaw-0.21.1.tar.gz",
+                    "sha256": "630a6bcf5e65d1b1b40cdb8608bdb922316759bfb981c65091fec8682d1543cd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -193,8 +193,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/frameworks/5.101/krunner-5.101.0.tar.xz",
-                            "sha256": "d25fcc168234777352dd4d11ac0f46a916d6b17d4cd9078e3a615a7804865fa6",
+                            "url": "https://download.kde.org/stable/frameworks/5.102/krunner-5.102.0.tar.xz",
+                            "sha256": "ce7d2c0ea598362b15e867196697871f6100a2c9d333b969800adf23d1aa6b3f",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8762,

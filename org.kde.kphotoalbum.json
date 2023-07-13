@@ -59,13 +59,14 @@
                 "-DEXIV2_TEAM_EXTRA_WARNINGS=OFF",
                 "-DEXIV2_TEAM_WARNINGS_AS_ERRORS=OFF",
                 "-DEXIV2_TEAM_USE_SANITIZERS=OFF",
-                "-DEXIV2_ENABLE_WIN_UNICODE=OFF"
+                "-DEXIV2_ENABLE_WIN_UNICODE=OFF",
+                "-DEXIV2_ENABLE_INIH:BOOL=OFF"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
-                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6",
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.28.0/exiv2-0.28.0-Source.tar.gz",
+                    "sha256": "89af3b5ef7277753ef7a7b5374ae017c6b9e304db3b688f1948e73e103491f3d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -216,8 +217,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kphotoalbum/5.10.0/kphotoalbum-5.10.0.tar.xz",
-                    "sha256": "add117820e61c2ee765c98add3b01bad2c3b90b0cd2be2296c8c0a095fcb869f",
+                    "url": "https://download.kde.org/stable/kphotoalbum/5.11.0/kphotoalbum-5.11.0.tar.xz",
+                    "sha256": "356b4e207257b5cf0f965b586dba766300dfff7408dcc7473435fb59540c8a0e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 14987,

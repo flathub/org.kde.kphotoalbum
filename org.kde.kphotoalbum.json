@@ -59,7 +59,8 @@
                 "-DEXIV2_TEAM_EXTRA_WARNINGS=OFF",
                 "-DEXIV2_TEAM_WARNINGS_AS_ERRORS=OFF",
                 "-DEXIV2_TEAM_USE_SANITIZERS=OFF",
-                "-DEXIV2_ENABLE_WIN_UNICODE=OFF"
+                "-DEXIV2_ENABLE_WIN_UNICODE=OFF",
+                "-DEXIV2_ENABLE_INIH:BOOL=OFF"
             ],
             "sources": [
                 {

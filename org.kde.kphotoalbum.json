@@ -65,13 +65,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.28.0/exiv2-0.28.0-Source.tar.gz",
-                    "sha256": "89af3b5ef7277753ef7a7b5374ae017c6b9e304db3b688f1948e73e103491f3d",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.1.tar.gz",
+                    "sha256": "3078651f995cb6313b1041f07f4dd1bf0e9e4d394d6e2adc6e92ad0b621291fa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
                         "stable-only": true,
-                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+                        "url-template": "https://github.com/Exiv2/exiv2/archive/refs/tags/v$version.tar.gz"
                     }
                 }
             ]
@@ -116,8 +116,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/marble-23.08.2.tar.xz",
-                    "sha256": "aba39f07184f61c1e70f1c6b0d45aae035ce4afa3e650814bbfda0ca537dd57f",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/marble-23.08.3.tar.xz",
+                    "sha256": "805e175f8ea8201eea303fe2f2359aec30fc1c0a4918f0f7ab51f6e51431c298",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -200,8 +200,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.1/src/libkdcraw-23.08.1.tar.xz",
-                    "sha256": "d9450b1d8858455770495253cc67e9d26e66bd08024e393a911eb96c5de66267",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/libkdcraw-23.08.3.tar.xz",
+                    "sha256": "5406fbbbaded4af8001581dbdb0b85fd9e8ba88df162212a4683e2e9206df32f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

@@ -1,9 +1,9 @@
 {
     "id": "org.kde.kphotoalbum",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15-22.08",
+    "base-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "kphotoalbum",
     "rename-icon": "kphotoalbum",
@@ -26,7 +26,7 @@
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
-            "version": "22.08",
+            "version": "23.08",
             "add-ld-path": "."
         }
     },
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.28.0/exiv2-0.28.0-Source.tar.gz",
-                    "sha256": "89af3b5ef7277753ef7a7b5374ae017c6b9e304db3b688f1948e73e103491f3d",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.1.tar.gz",
+                    "sha256": "3078651f995cb6313b1041f07f4dd1bf0e9e4d394d6e2adc6e92ad0b621291fa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,

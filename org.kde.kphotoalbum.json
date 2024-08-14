@@ -177,8 +177,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "http://download.osgeo.org/shapelib/shapelib-1.6.0.tar.gz",
-                            "sha256": "19528b24377241705637320c367943031ad5088665d1fb0e1eaa52a71264a6c4",
+                            "url": "http://download.osgeo.org/shapelib/shapelib-1.6.1.tar.gz",
+                            "sha256": "5da90a60e25440f108f4e8e95732bfa83ede13c8e0c2bcf80ae41006cc8ebc20",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 4804,

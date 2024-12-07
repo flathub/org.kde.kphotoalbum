@@ -217,8 +217,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kphotoalbum/5.13.0/kphotoalbum-5.13.0.tar.xz",
-                    "sha256": "9881e1ee314efeea4b2488eb473427c4b53a9fbad455e234170650cb64814156",
+                    "url": "https://download.kde.org/stable/kphotoalbum/6.0.0/kphotoalbum-6.0.0.tar.xz",
+                    "sha256": "a61c059932b8332ca1eae181a5e70c01194c6a11268a5a06d72a56f36449eefb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 14987,

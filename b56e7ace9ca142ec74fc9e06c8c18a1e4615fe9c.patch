@@ -1,0 +1,27 @@
+From b56e7ace9ca142ec74fc9e06c8c18a1e4615fe9c Mon Sep 17 00:00:00 2001
+From: Johannes Zarl-Zierl <johannes@zarl-zierl.at>
+Date: Mon, 9 Dec 2024 22:55:14 +0100
+Subject: [PATCH] Fix application icon on Wayland
+
+KAboutData::desktopFileName was not set properly, as it seems. On X11,
+so far the icon was always properly shown in the upper left window
+corner AFAIK. So I assume this is a difference in behaviour on Wayland.
+---
+ main.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/main.cpp b/main.cpp
+index 90552fe97..dcbc3c4de 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -91,6 +91,7 @@ int main(int argc, char **argv)
+         QStringLiteral("https://www.kphotoalbum.org") // homepage
+     );
+     aboutData.setOrganizationDomain("kde.org");
++    aboutData.setDesktopFileName(QStringLiteral("org.kde.kphotoalbum"));
+     // maintainer is expected to be the first entry
+     // Note: I like to sort by name, grouped by active/inactive;
+     //       Jesper gets ranked with the active authors for obvious reasons
+-- 
+GitLab
+

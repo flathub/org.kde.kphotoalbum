@@ -114,8 +114,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/marble-25.04.2.tar.xz",
-                    "sha256": "53bcb99c51b069f98f671dc3dac27351b33d1da5dd3e62cb0b607adb01d778ea",
+                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/marble-25.04.3.tar.xz",
+                    "sha256": "1c2fed2367dceb07b1898699f7bcecd5ad67e24d3a8ed56e17fba3792c52aa44",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -199,8 +199,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/libkdcraw-25.04.2.tar.xz",
-                    "sha256": "de7bc44d0437a0dca94a1005360b96b00da4ffc501f513eff466c3eb2755fd8a",
+                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/libkdcraw-25.04.3.tar.xz",
+                    "sha256": "4ffd227cf0838c9a46be9f682d2431928e4663ad54de1f765bd8ae258eb110e8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

@@ -1,9 +1,9 @@
 {
     "id": "org.kde.kphotoalbum",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.9",
+    "base-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "kphotoalbum",
     "rename-icon": "kphotoalbum",
@@ -22,17 +22,6 @@
         "/lib/cmake",
         "/lib/pkgconfig",
         "/share/man"
-    ],
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "directory": "lib/ffmpeg",
-            "version": "24.08",
-            "add-ld-path": ".",
-            "no-autodownload": false
-        }
-    },
-    "cleanup-commands": [
-        "mkdir -p /app/lib/ffmpeg"
     ],
     "modules": [
         {
@@ -265,8 +254,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://get.videolan.org/vlc/3.0.21/vlc-3.0.21.tar.xz",
-                            "sha256": "24dbbe1d7dfaeea0994d5def0bbde200177347136dbfe573f5b6a4cee25afbb0",
+                            "url": "https://get.videolan.org/vlc/3.0.23/vlc-3.0.23.tar.xz",
+                            "sha256": "e891cae6aa3ccda69bf94173d5105cbc55c7a7d9b1d21b9b21666e69eff3e7e0",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 6504,
@@ -277,33 +266,6 @@
                         {
                             "type": "patch",
                             "path": "vlc-ignore-time-for-cache.patch"
-                        },
-                        {
-                            "type": "patch",
-                            "path": "vlc-taglib-2.patch"
-                        }
-                    ],
-                    "modules": [
-                        {
-                            "name": "ffmpeg",
-                            "config-opts": [
-                                "--enable-pic",
-                                "--enable-shared",
-                                "--disable-doc",
-                                "--disable-static",
-                                "--enable-gpl",
-                                "--enable-libvpx",
-                                "--enable-libmp3lame",
-                                "--enable-libvorbis",
-                                "--enable-libopus"
-                            ],
-                            "sources": [
-                                {
-                                    "type": "archive",
-                                    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
-                                    "sha256": "f9514e0d3515aee5a271283df71636e1d1ff7274b15853bcd84e144be416ab07"
-                                }
-                            ]
                         }
                     ]
                 }

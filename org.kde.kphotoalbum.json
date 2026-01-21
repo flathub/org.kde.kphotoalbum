@@ -141,24 +141,6 @@
                     ]
                 },
                 {
-                    "name": "libwlocate",
-                    "buildsystem": "simple",
-                    "subdir": "master",
-                    "build-commands": [
-                        "make -f Makelib",
-                        "make",
-                        "install -D libwlocate.so ${FLATPAK_DEST}/lib/libwlocate.so",
-                        "install -D libwlocate.h ${FLATPAK_DEST}/include/libwlocate.h"
-                    ],
-                    "sources": [
-                        {
-                            "type": "archive",
-                            "url": "https://github.com/openwifi-su/lwlocate/archive/refs/tags/v0.1.tar.gz",
-                            "sha256": "791899f4890fa88553b4e8417376187d7d533ead962f5fe51f598b6ed9a2c258"
-                        }
-                    ]
-                },
-                {
                     "name": "shapelib",
                     "buildsystem": "autotools",
                     "sources": [

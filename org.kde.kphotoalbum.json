@@ -154,6 +154,10 @@
                                 "stable-only": true,
                                 "url-template": "http://download.osgeo.org/shapelib/shapelib-$version.tar.gz"
                             }
+                        },
+                        {
+                            "type": "patch",
+                            "path": "shapelib-bf455986.patch"
                         }
                     ]
                 }

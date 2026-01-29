@@ -16,12 +16,18 @@
         "--socket=wayland"
     ],
     "cleanup": [
-        "*.a",
-        "*.la",
         "/include",
         "/lib/cmake",
         "/lib/pkgconfig",
-        "/share/man"
+        "/mkspecs",
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6",
+        "*.la",
+        "*.a"
+    ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
     ],
     "modules": [
         {

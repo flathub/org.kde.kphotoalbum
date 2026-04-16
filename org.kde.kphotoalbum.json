@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.7.tar.gz",
-                    "sha256": "5e292b02614dbc0cee40fe1116db2f42f63ef6b2ba430c77b614e17b8d61a638",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.8.tar.gz",
+                    "sha256": "ea51b0609f58a9afa063b60daa1539948b62247721e154f4fff0ad3aec9f9756",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.22.0.tar.gz",
-                    "sha256": "1071e6e8011593c366ffdadc3d3513f57c90202d526e133174945ec1dd53f2a1",
+                    "url": "https://www.libraw.org/data/LibRaw-0.22.1.tar.gz",
+                    "sha256": "a789dc4e2409e2901d93793a4e0b80c7b49d0d97cf6ad71c850eb7616acfd786",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/marble-25.12.1.tar.xz",
-                    "sha256": "09c2a8459640b3b114ea40d819bc61b0051cf982572f61aeb31c04190f488717",
+                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/marble-26.04.0.tar.xz",
+                    "sha256": "4b0aef4a08a41647d82c2b50198252e8e332fb7880f614ce6c5561eb073c9822",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -152,8 +152,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "http://download.osgeo.org/shapelib/shapelib-1.6.2.tar.gz",
-                            "sha256": "4b74a36ced94e9a7bea401157e664addcc5be251e7df7f88d4674361da012c21",
+                            "url": "http://download.osgeo.org/shapelib/shapelib-1.6.3.tar.gz",
+                            "sha256": "3ff5ead18ca6d2fe249f0e80b361e1ad6782165115268ed4a58c780a60c1e0eb",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 4804,
@@ -180,8 +180,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/libkdcraw-25.12.1.tar.xz",
-                    "sha256": "fc4a7461265a876680111b6be1d9147eb62971e9737078f757c0e6992c7c4857",
+                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/libkdcraw-26.04.0.tar.xz",
+                    "sha256": "37139a9228f894ae097fbabe15c536788c750119011c9b52eb88d27bfcb026ef",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -269,8 +269,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kphotoalbum/6.1.0/kphotoalbum-6.1.0.tar.xz",
-                    "sha256": "7f39c1fc1d95ae207e5ade99c6b3eb36824fe3902e2b5bd5e0e3690076305256",
+                    "url": "https://download.kde.org/stable/kphotoalbum/6.2.0/kphotoalbum-6.2.0.tar.xz",
+                    "sha256": "c61127347184d18f9541e322c30de4a3202d545b34962e4d0215f3fc1e845d32",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",

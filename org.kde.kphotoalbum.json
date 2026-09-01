@@ -1,9 +1,9 @@
 {
     "id": "org.kde.kphotoalbum",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.10",
+    "runtime-version": "6.11",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.10",
+    "base-version": "6.11",
     "sdk": "org.kde.Sdk",
     "command": "kphotoalbum",
     "rename-icon": "kphotoalbum",
@@ -36,33 +36,33 @@
             "builddir": true,
             "config-opts": [
                 "-DBUILD_SHARED_LIBS=ON",
-                "-DEXIV2_ENABLE_XMP=ON",
+                "-DEXIV2_BUILD_DOC=OFF",
+                "-DEXIV2_BUILD_EXIV2_COMMAND=OFF",
+                "-DEXIV2_BUILD_PO=OFF",
+                "-DEXIV2_BUILD_SAMPLES=OFF",
+                "-DEXIV2_BUILD_UNIT_TESTS=OFF",
+                "-DEXIV2_ENABLE_CURL=OFF",
+                "-DEXIV2_ENABLE_DYNAMIC_RUNTIME=OFF",
                 "-DEXIV2_ENABLE_EXTERNAL_XMP=OFF",
-                "-DEXIV2_ENABLE_PNG=ON",
-                "-DEXIV2_ENABLE_NLS=ON",
-                "-DEXIV2_ENABLE_PRINTUCS2=ON",
+                "-DEXIV2_ENABLE_INIH:BOOL=OFF",
                 "-DEXIV2_ENABLE_LENSDATA=ON",
+                "-DEXIV2_ENABLE_NLS=ON",
+                "-DEXIV2_ENABLE_PNG=ON",
+                "-DEXIV2_ENABLE_PRINTUCS2=ON",
+                "-DEXIV2_ENABLE_SSH=OFF",
                 "-DEXIV2_ENABLE_VIDEO=OFF",
                 "-DEXIV2_ENABLE_WEBREADY=OFF",
-                "-DEXIV2_ENABLE_DYNAMIC_RUNTIME=OFF",
-                "-DEXIV2_ENABLE_CURL=OFF",
-                "-DEXIV2_ENABLE_SSH=OFF",
-                "-DEXIV2_BUILD_SAMPLES=OFF",
-                "-DEXIV2_BUILD_PO=OFF",
-                "-DEXIV2_BUILD_EXIV2_COMMAND=OFF",
-                "-DEXIV2_BUILD_UNIT_TESTS=OFF",
-                "-DEXIV2_BUILD_DOC=OFF",
-                "-DEXIV2_TEAM_EXTRA_WARNINGS=OFF",
-                "-DEXIV2_TEAM_WARNINGS_AS_ERRORS=OFF",
-                "-DEXIV2_TEAM_USE_SANITIZERS=OFF",
                 "-DEXIV2_ENABLE_WIN_UNICODE=OFF",
-                "-DEXIV2_ENABLE_INIH:BOOL=OFF"
+                "-DEXIV2_ENABLE_XMP=ON",
+                "-DEXIV2_TEAM_EXTRA_WARNINGS=OFF",
+                "-DEXIV2_TEAM_USE_SANITIZERS=OFF",
+                "-DEXIV2_TEAM_WARNINGS_AS_ERRORS=OFF"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.8.tar.gz",
-                    "sha256": "ea51b0609f58a9afa063b60daa1539948b62247721e154f4fff0ad3aec9f9756",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.9.tar.gz",
+                    "sha256": "700b76b97695b2fab4ef8c79619c68ae57d09e0c130724791cafbd39e0eb4aef",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.22.0.tar.gz",
-                    "sha256": "1071e6e8011593c366ffdadc3d3513f57c90202d526e133174945ec1dd53f2a1",
+                    "url": "https://www.libraw.org/data/LibRaw-0.22.2.tar.gz",
+                    "sha256": "de86b035655accff8d4010f1a221fdf50d353cb7b1422ba26f14a0db92612cfa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/marble-25.12.3.tar.xz",
-                    "sha256": "6f444e70f61ae3e4b7a2c9cc07bea788a795263693278ac637d8afc86a0c3dd4",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/marble-26.08.0.tar.xz",
+                    "sha256": "d91506f09629e744531910f2b1e95b1dec3373772390e205971de5f995cdc6e5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -152,18 +152,14 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "http://download.osgeo.org/shapelib/shapelib-1.6.2.tar.gz",
-                            "sha256": "4b74a36ced94e9a7bea401157e664addcc5be251e7df7f88d4674361da012c21",
+                            "url": "http://download.osgeo.org/shapelib/shapelib-1.6.3.tar.gz",
+                            "sha256": "3ff5ead18ca6d2fe249f0e80b361e1ad6782165115268ed4a58c780a60c1e0eb",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 4804,
                                 "stable-only": true,
                                 "url-template": "http://download.osgeo.org/shapelib/shapelib-$version.tar.gz"
                             }
-                        },
-                        {
-                            "type": "patch",
-                            "path": "shapelib-bf455986.patch"
                         }
                     ]
                 }
@@ -180,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkdcraw-25.12.3.tar.xz",
-                    "sha256": "23b220f14bbaa21858b6f8e18169499389835b6693e73a877f8e0d788f4499af",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/libkdcraw-26.08.0.tar.xz",
+                    "sha256": "cb4a21e94adb2adc4ac7f267d0e35c0449786514bd92c28bfdb75941d79c8e7e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
